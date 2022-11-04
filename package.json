@@ -1,12 +1,16 @@
 {
-  "name": "umur-nabi",
+  "name": "umur-nabi2",
   "version": "1.0.0",
   "main": "index.js",
   "author": "ryanhs <mr.ryansilalahi@gmail.com>",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "bluebird": "^3.7.2",
     "dayjs": "^1.11.6",
     "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
   }
 }
